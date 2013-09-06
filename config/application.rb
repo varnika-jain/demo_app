@@ -6,11 +6,9 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-<<<<<<< HEAD
 module DemoApp
-=======
-module FirstApp
->>>>>>> 62439d5fa6339feb3c2c438bcaeeea8bd6532480
+
+
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -23,5 +21,5 @@ module FirstApp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-  end
+end
 end
